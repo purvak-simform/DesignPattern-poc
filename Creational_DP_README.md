@@ -19,5 +19,15 @@ Real world example:-
     Add the electronics etc.
 2. Construction of House.
 
+
+Other Creational Design patterns are 
+
+1. **Factory Method Pattern:**
+        
+    The Factory Method pattern is widely used in Rails for object creation. It provides an interface for creating objects, but allows subclasses to decide which class to instantiate. In Rails, the most commonly used implementation of this pattern is the Factory Bot gem. Factory Bot helps create test data using factories, allowing you to define and customize object creation for testing purposes.
+
+2. **Singleton Pattern:**
+    
+    The Singleton pattern ensures that a class has only one instance throughout the application and provides global access to that instance. In Rails, the Singleton pattern can be useful for managing shared resources or maintaining global state. The Rails framework itself utilizes the Singleton pattern in various components, such as the Application Controller and ActiveRecord's connection pool.
                                                
 

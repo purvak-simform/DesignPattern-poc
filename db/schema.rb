@@ -10,9 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_20_091626) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_26_112929) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "coupons", force: :cascade do |t|
+    t.string "name"
+    t.string "code"
+    t.datetime "generated_date"
+    t.datetime "expiry_date"
+    t.boolean "used_once", default: false
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_coupons_on_user_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.text "name"
@@ -22,6 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_20_091626) do
     t.text "city"
     t.integer "pincode"
     t.integer "contact_number"
+    t.integer "status", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

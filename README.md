@@ -26,3 +26,4 @@ Visit links for Docs on Design Patterns
   1. Form Object
   2. Policy Object
   3. Value Object
+  4. QueryObject

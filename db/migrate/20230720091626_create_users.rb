@@ -8,7 +8,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.text :city
       t.integer :pincode
       t.integer :contact_number
-
+      t.integer :status, default: 0 
       t.timestamps
     end
   end

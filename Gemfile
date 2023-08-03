@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 
 gem 'twilio-ruby'
 gem 'draper' # for decorator design pattern
+gem 'rails-observers' # for observer design pattern 
 
 # Use Sass to process CSS
 # gem "sassc-rails"

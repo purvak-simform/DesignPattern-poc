@@ -172,6 +172,8 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails-observers (0.1.5)
+      activemodel (>= 4.0)
     railties (7.0.6)
       actionpack (= 7.0.6)
       activesupport (= 7.0.6)
@@ -244,6 +246,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.5)
+  rails-observers
   redis (~> 4.0)
   selenium-webdriver
   sprockets-rails

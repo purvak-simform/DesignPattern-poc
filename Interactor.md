@@ -2,7 +2,9 @@
 
 ## What is the Interactor Design Pattern?
 
-The Interactor design pattern is a way to organize and manage the complex interactions between different components in your application. It's especially useful when dealing with business logic that involves multiple steps, validations, and decisions which eventually will keep Model clean.
+The Interactor design pattern is a way to organize and manage the complex interactions between different components in your application. It's especially useful when dealing with business logic that involves multiple steps, validations, and decisions which eventually will keep Model clean. 
+
+We can imagine the working of interactor has some similarity like transcation do block, in the sense that both are used to manage and control complex processes in applications. However, they serve different purposes and operate at different levels of abstraction.
 
 In simpler terms, think of an "Interactor" as a mediator that takes care of coordinating the flow of actions and data between different parts of your codebase. It helps to keep your codebase clean, modular, and easy to maintain by separating concerns and encapsulating logic.
 

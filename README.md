@@ -9,7 +9,7 @@ Visit links for Docs on Design Patterns
      
   https://github.com/purvak-simform/designpattern-poc/blob/main/Creational_DP_README.md
 ## Structural Design Pattern:-
-  Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures
+  Structural design patterns explain how to assemble objects and classes into larger structures while keeping these structures
   flexible and efficient.
   1. Adapter
   2. Service
@@ -17,10 +17,18 @@ Visit links for Docs on Design Patterns
   4. Presenter
      
   https://github.com/purvak-simform/designpattern-poc/blob/main/Structural_Adapter_DP.md
+  https://github.com/purvak-simform/designpattern-poc/blob/main/ServiceDP.md
+  https://github.com/purvak-simform/designpattern-poc/blob/main/PresenterPattern.md
+  https://github.com/purvak-simform/designpattern-poc/blob/main/Decorator_readme.md
+  
 ## Behavioural Design Pattern:-
   Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
   1. Observer
   2. Interactor
+     
+  https://github.com/purvak-simform/designpattern-poc/blob/main/ObserverDesginPattern.md
+  https://github.com/purvak-simform/designpattern-poc/blob/main/Interactor.md
+     
      
 ## Other Design Pattern:-
   1. Form Object

@@ -5,19 +5,19 @@ class UserWithCouponQuery
     new(relation).call
   end
 
-  def new(relation = Coupon)
+  def initialize(relation = Coupon)
     @relation = relation
   end
 
   def call
-    active_coupon.with_user
+    recent_active_coupon
   end
 
-  def active_coupon
-    relation.where(used_once: false, generated_date: Date.today - 1 )
+  def recent_active_coupon
+    relation.where(used_once: false)
   end
 
   def with_user
-    relation.joins(:user).where(user: { status: active })
+    relation.joins(:user).where(user: { status: 'active' })
   end
 end

@@ -23,3 +23,7 @@ class FileParserBuilder
     end
   end
 end
+
+# This FileParserBuilder.new(file_path).with_type('csv').build
+# can be called in Model or Interactor or Service wherever we want to generate files
+# CsvParser, JsonParser, XmlParser are in separate parser folder follows SRP principle.

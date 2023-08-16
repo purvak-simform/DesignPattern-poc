@@ -74,6 +74,10 @@ end
 
 The `call` method of the Interactor returns a context object. You can use `result.success?` to check if the interaction was successful, and access the result using `result.user`.
 
+## Kinds of Interactors
+  There are two kinds of interactor basic interactors and organizers.
+  For details check gem documentation.
+
 ## References: 
 1. https://www.fullstacklabs.co/blog/ruby-on-rails-business-logic-interactors
 2. https://medium.com/@lucaspolonuer/ruby-on-rails-boost-your-software-design-skills-with-interactors-e07f1f9a711e

@@ -27,7 +27,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        UserRegistrationInteractor.call(user: @user)
+        UserRegistrationInteractor.(user: @user)
         format.html { redirect_to user_url(@user), notice: "User was successfully created." }
       else
         format.html { render :new, status: :unprocessable_entity }
